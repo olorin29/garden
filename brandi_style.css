@@ -1,0 +1,626 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600);
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* Brandi_landing */
+
+body {
+    width: 100%;
+    /*height: 5000px;*/
+}
+.header {
+    width: 100%;
+    height: 700px;
+    background-image: url(img/bcg2/Rectangle-1-copy-2.png) ;
+    background-size: 100% auto;
+    position: absolute;
+}
+
+.top-header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    background-image: url(img/bcg/bcg-top-head.png);
+}
+
+.logo {
+    display: inline-block;
+    width: 92px;
+    margin-left: 13.4375%;
+    margin-top: 26px;
+    padding: 0;
+  /*  border: 1px solid #fff;*/
+}
+
+.logo img {
+    width: 100%;
+}
+.logo-icon {
+  /*  border: 1px solid yellow; */
+}
+
+.tag-line {
+    display: inline-block;
+    width: 135px;
+    margin-left: 1.5625%;  
+    padding: 0;
+  /*  border: 1px solid #fff;*/
+}
+
+.tag-line img {
+    width: 100%;
+}
+
+.tag-line-txt {
+ /*   border: 1px solid yellow;*/
+}
+
+
+
+
+.navigation {
+    width: 395px;
+    display: inline-block;
+    margin-top: 0.12%;
+    margin-left: 33%;   
+}
+
+.navigation ul li {  
+    float: left;  
+    width: 50px;
+    padding-right: 23px;
+    text-align: center;
+    
+}
+
+.navigation ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+} 
+
+
+.navigation ul li a:hover {
+    font-weight: 700;
+}
+
+.navigation ul li a:active {
+    font-size: 14px;
+}
+
+.slider {
+    z-index: 9;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 0 7px;
+    position: absolute;
+    z-index: 0;
+    top: -70px;
+}
+
+.slider ul li img {
+    background-size: contain;
+}
+
+.slider ul,
+.slider li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.slider ul {
+     width: 9999px; 
+ }
+
+.slider ul li {
+     list-style-type: none;
+     float: left;
+     width: 1600px;
+     height: 800px;
+ }
+
+.slider .nav {
+     position: absolute;
+     right: 2.9375%;
+     top: 385px; 
+     border: 1px, solid #fff;
+ }
+
+.slider .nav span {
+     opacity: 0.9;
+     background: none;
+     margin: 18px 0 0 0;
+     width: 8px;
+     height: 8px;
+     border-radius: 8px;
+     cursor: pointer;
+     overflow: hidden;
+     display: block;
+     /*float: left;*/
+     box-shadow: 0 1px 2px #fff;
+     
+}
+
+.slider .nav span.on {
+     background: #fff;
+ }
+
+
+.header-content {
+    display: block;
+    position: absolute;
+    width: 630px;
+    height: 300px;
+    color: #fff;  
+    top: 390px;
+    left: 28.125%;
+}
+
+
+.head-cont-h1 {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    border: 1px, solid white;
+    display: block;
+    color: #fff;
+    font-size: 62px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    padding: 0;
+    left: 120px;
+}
+
+.head-cont-h1 span {
+    font-size: 62px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.head-cont-p1 {
+    position: absolute;
+    display: block;
+    color: #fff;
+    width: 613;
+    height: 55px;
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;  
+    top: 70px;
+    left: 6px;
+}
+
+.head-cont-p1 span {
+    color: #0edc95;
+}
+
+
+.shape-line-cont1 {
+    display: block;
+    position: absolute;
+    left: 130px;
+    top: 150px;
+}
+
+.head-cont-p2 {
+    display: block;
+    position: absolute;
+    color: #fff;
+    width: 253px;
+    height: 20px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    top: 140px;
+    left: 180px;
+}
+
+.shape-line-cont2 {
+    display: block;
+    position: absolute;
+    top: 150px;
+    right: 140px;
+}
+
+
+
+.social {
+    z-index: 12;
+    position: absolute;
+    left: 250px;
+    bottom: 35px;
+}
+
+.social img {
+    margin-right: 12px;
+}
+
+
+.features {
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    top: 700px;
+    background-image: url(img/bcg2/bcg-features.png);
+    
+}
+
+.featur-head {
+    display: block;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    color: #0eb493;
+    text-align: center;
+    width: 134px;
+    padding: 0;
+    top: 76px;
+    left: 50%;
+    margin-left: -60px;
+    
+}
+
+.featur-shape1 {
+    display: block;
+    position: absolute;
+    top: 129px;
+    left: 603px;
+}
+
+.featur-heart {
+    display: block;
+    position: absolute;
+    top: 122px;
+    left: 710px;
+    
+}
+
+.featur-shape2 {
+    display: block;
+    position: absolute;
+    top: 129px;
+    right: 590px;
+}
+
+
+.branding {
+    display: block;
+    position: absolute;
+    width: 357px;
+    height: 141px;
+    top: 200px;
+    left: 145px;
+}
+
+.brand-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.brend-h1 {
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 56px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #062033;
+}
+
+.brand-p {
+    display: block;
+    position: absolute;
+    top: 46px;
+    left: 56px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #717982;
+    line-height: 21px;
+}
+
+.development {
+    display: block;
+    position: absolute;
+    width: 357px;
+    height: 141px;
+    top: 200px;
+    left: 540px
+}
+
+.dev-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dev-h1 {
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 56px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #062033;
+}
+
+.dev-p {
+    display: block;
+    position: absolute;
+    top: 46px;
+    left: 56px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #717982;
+    line-height: 21px;
+}
+
+.consulting {
+    display: block;
+    position: absolute;
+    width: 357px;
+    height: 141px;
+    top: 200px;
+    right: 130px;
+}
+    
+.cons-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cons-h1 {
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 56px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #062033;
+}
+
+.cons-p {
+    display: block;
+    position: absolute;
+    top: 46px;
+    left: 56px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #717982;
+    line-height: 21px;
+}
+.works {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    top: 1160px;
+}
+
+.works-head {
+    display: block;
+    position: absolute;
+    width: 106px;
+    height: 27px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    color: #0eb493;
+    text-align: center;
+    top: 76px;
+    left: 50%;
+    margin-left: -45px;
+}
+
+
+.shape-heart-img {
+    display: block;
+    position: absolute;
+    width: 231px;
+    height: 16px;
+    top: 122px;
+    left: 50%;
+    margin-left: -106px;
+}
+
+.works-p {
+    display: block;
+    position: absolute;
+    width: 933px;
+    height: 47px;
+    top: 158px;
+    left: 50%;
+    margin-left: -458px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #717982;
+    line-height: 24px;
+    text-align: center;
+}
+
+.filter {
+    position: absolute;
+    width: 520px;
+    height: auto;
+    display: inline-block;
+    top: 283px;
+    left: 50%;
+    margin-left: -260px;
+}
+
+
+.filter ul li {
+    float: left;
+    text-align: center;
+    
+     
+}
+
+.filter ul li a {
+    padding: 8px 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #062033;
+    text-decoration: none;
+}
+
+.filter ul li a:hover {
+    color: #fff;
+    background-color: #0eb493;
+    border-radius: 3px;
+}
+
+
+
+.works-images {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 534px;
+    top: 350px;
+    
+}
+
+.works-image1 {
+    display: block;
+    position: absolute;
+    width: 355.75px;
+}
+
+.works-image1:hover {
+    background-image: url(img/image/works-img-hover.png);
+    display: block;
+    position: absolute;
+    width: 355.75px;
+    top: 0;
+    left: 0;
+}
+
+
+.works-image2 {
+    display: block;
+    position: absolute;
+    width: 355.75px;
+    left: 355px;
+}
+
+.works-image3 {
+    display: block;
+    position: absolute;
+    width: 355.75px;
+    left: 710px;
+}
+
+.works-image4 {
+    display: block;
+    position: absolute;
+    width: 355.75px;
+    left: 1065px;
+}
+
+.works-image5 {
+    display: block;
+    position: absolute;
+    width: 355.75px;
+    top: 266.25px;
+}
+
+.works-image6 {
+    display: block;
+    position: absolute;
+    width: 355.75px;
+    top: 266.25px;
+    left: 355px;
+}
+
+.works-image7 {
+    display: block;
+    position: absolute;
+    width: 355.75px;
+    top: 266.25px;
+    left: 710px;
+}
+
+.works-image8 {
+    display: block;
+    position: absolute;
+    width: 355.75px;
+    top: 266.25px;
+    left: 1065px;
+}
