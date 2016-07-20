@@ -624,3 +624,245 @@ body {
     top: 266.25px;
     left: 1065px;
 }
+
+.team {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 926px;
+    top: 2043px;
+    border: 1px solid red;
+}
+
+
+.team-h1 {
+    display: block;
+    position: absolute;
+    width: 240px;
+    height: 27px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    color: #0eb493;
+    text-align: center;
+    top: 100px;
+    left: 50%;
+    margin-left: -113px;
+}
+
+.shape-heart-team-img {
+    display: block;
+    position: absolute;
+    height: 16px;
+    width: 232px;
+    top: 150px;
+    left: 50%;
+    margin-left: -106px;
+}
+
+
+.team-p {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #717982;
+    line-height: 24px;
+    text-align: center;
+    top: 186px;
+    left: 50%;
+    margin-left: -458px;
+}
+
+.team-photo {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 714px;
+}
+
+.block-1 {
+    display: block;
+    position: absolute;
+    width: 270px;
+    height: 366px;
+    left: 130px;
+    top: 345px;
+}
+
+
+.block-2 {
+    display: block;
+    position: absolute;
+    width: 270px;
+    height: 366px;
+    top: 345px;
+    left: 430px;
+}
+
+.block-3 {
+    display: block;
+    position: absolute;
+    width: 270px;
+    height: 366px;
+    top: 345px;
+    left: 730px;
+}
+
+.block-4 {
+    display: block;
+    position: absolute;
+    width: 270px;
+    height: 366px;
+    top: 345px;
+    right: 120px;
+}
+
+.name-one {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #062033;
+    font-weight: 600;
+    top: 320px;
+    left: 70px;   
+}
+
+.name-one:hover {
+    color: #979ca1;
+}
+
+.position-one {
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #979ca1;
+    font-weight: normal;
+    bottom: 10px;
+    left: 79px;
+}
+
+.name-two {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #062033;
+    font-weight: 600;
+    top: 320px;
+    left: 70px;
+}
+.name-two:hover {
+    color: #979ca1;
+}
+
+.position-two {
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #979ca1;
+    font-weight: normal;
+    bottom: 10px;
+    left: 92px;
+}
+
+.name-three {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #062033;
+    font-weight: 600;
+    top: 320px;
+    left: 70px;
+}
+
+.name-three:hover {
+    color: #979ca1;
+}
+
+.position-three {
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #979ca1;
+    font-weight: normal;
+    bottom: 10px;
+    left: 87px;
+}
+
+.name-four {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #062033;
+    font-weight: 600;
+    top: 320px;
+    left: 75px;
+}
+
+.name-four:hover {
+    color: #979ca1;
+}
+
+.position-four {
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #979ca1;
+    font-weight: normal;
+    bottom: 10px;
+    left: 89px;
+}
+.funfacts {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 534px;
+    top: 2971px;
+}
+.funfacts img {
+    width: 1423px;
+}
+
+.lets-discuss {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 854px;
+    border: 1px solid red;
+    top: 3505px;
+    
+}
+
+.discuss-h1 {
+    display: block;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    color: #0eb493;
+    text-align: center;
+    width: 200px;
+    top: 100px;
+    left: 50%;
+    margin-left: -95px;
+    border: 1px solid black;
+}
